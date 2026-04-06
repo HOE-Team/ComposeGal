@@ -74,6 +74,7 @@ ComposeGal 是一个探索性的实验项目，旨在验证使用原生 Android 
 > )
 > ```
 > 及app/src/main/res/drawable中的图片及文件名
+
 > [!IMPORTANT]
 > Android 资源文件名必须仅使用小写字母、数字和下划线，且必须以字母开头（例如 ic_logo_01.png）。
 
