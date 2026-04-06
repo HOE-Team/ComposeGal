@@ -28,7 +28,7 @@ fun LogoSplash(
         ) {
             // 第一个 Logo: Hoe Team
             Image(
-                painter = painterResource(id = R.drawable.hoe_team), // 注意：Android 资源路径通常不带层级，请确保图片在 res/drawable 下
+                painter = painterResource(id = R.drawable.hoe_team),
                 contentDescription = "Hoe Team Logo",
                 modifier = Modifier.size(120.dp)
             )
