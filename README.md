@@ -5,7 +5,7 @@
 
 
 <div align="center" class="NPL text">
-   <p>此项目属于 HOE Team Stack Lab <a href="https://github.com/HOE-Team/.github/blob/main/profile/docs/INTRODUCE_PLAN_NO.md">了解更多[↗]</a></p>
+   <p>此项目属于 HOE Team Stack Lab <a href="https://github.com/HOE-Team">了解更多(暂时无法访问)[↗]</a></p>
 </div>
 
 <div align="center" class="Title">
