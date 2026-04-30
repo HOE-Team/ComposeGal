@@ -12,25 +12,25 @@
     <h1>ComposeGal</h1>
 </div>
 
-<h4 align="center">使用 Jetpack Compose 编写一个 Galgame</h4>
+<h4 align="center">使用 Jetpack Compose 编写一个视觉小说</h4>
 
 <div align="center">
 
-[![Stars](https://img.shields.io/github/stars/HOE-Team/ComposeGal?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4yAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiIGZpbGw9IiNlYWM1NGYiLz48L3N2Zz4=&logoSize=auto&label=Stars&labelColor=444444&color=eac54f)](https://github.com/HOE-Team/ComposeGal)
-[![LICENSE](https://img.shields.io/github/license/HOE-Team/ComposeGal?style=for-the-badge)](https://github.com/HOE-Team/ComposeGal/blob/main/LICENSE)
-[![GitHub Release](https://img.shields.io/github/v/release/HOE-Team/ComposeGal?label=Release&logo=github&style=for-the-badge)](https://github.com/HOE-Team/ComposeGal/releases)
+[![Stars](https://img.shields.io/github/stars/HOE-Team/ComposeVN?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4yAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiIGZpbGw9IiNlYWM1NGYiLz48L3N2Zz4=&logoSize=auto&label=Stars&labelColor=444444&color=eac54f)](https://github.com/HOE-Team/ComposeVN)
+[![LICENSE](https://img.shields.io/github/license/HOE-Team/ComposeVN?style=for-the-badge)](https://github.com/HOE-Team/ComposeVN/blob/main/LICENSE)
+[![GitHub Release](https://img.shields.io/github/v/release/HOE-Team/ComposeVN?label=Release&logo=github&style=for-the-badge)](https://github.com/HOE-Team/ComposeVN/releases)
 
 </div>
 
 ## 项目简介
-ComposeGal 是一个探索性的实验项目，旨在验证使用原生 Android 现代 UI 工具栈（Jetpack Compose）构建美少女游戏（Galgame）的可行性。项目通过数据驱动的设计模式，实现了剧情内容与底层渲染逻辑的彻底解耦。
+ComposeVN 是一个探索性的实验项目，旨在验证使用原生 Android 现代 UI 工具栈（Jetpack Compose）构建视觉小说（Visual Novels）的可行性。项目通过数据驱动的设计模式，实现了剧情内容与底层渲染逻辑的彻底解耦。
 
 > [!IMPORTANT]
 > 这是一个**实验性项目**，使用了非常规的技术栈来编写。因此不保证项目的稳定性，但此项目会被长期维护。
 
 ## 特性
 * **显示配置**：
-    * **强制横屏**：锁定 sensorLandscape 模式，提供最适合 Galgame 游玩的视觉比例。
+    * **强制横屏**：锁定 sensorLandscape 模式，提供最适合视觉小说游玩的视觉比例。
     * **全屏沉浸**：启用 Edge-to-Edge 渲染，消除系统状态栏干扰。
 * **响应式引擎架构**：
     *基于 GameViewModel 的单向数据流管理，确保对话索引与 UI 渲染严格同步。
@@ -84,7 +84,7 @@ ComposeGal 是一个探索性的实验项目，旨在验证使用原生 Android 
 ### 3. 构建与运行
 ```bash
 # 克隆仓库
-git clone https://github.com/HOE-Team/ComposeGal
+git clone https://github.com/HOE-Team/ComposeVN
 
 # 同步 Gradle 并运行
 ./gradlew installDebug
