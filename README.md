@@ -9,7 +9,7 @@
 </div>
 
 <div align="center" class="Title">
-    <h1>ComposeGal</h1>
+    <h1>ComposeVN</h1>
 </div>
 
 <h4 align="center">使用 Jetpack Compose 编写一个视觉小说</h4>
